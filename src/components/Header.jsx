@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Cart from './cart.jsx';
+import Cart from './Cart.jsx';
 import logo from '../assets/images/logo.svg';
 import closeIcon from '../assets/images/icon-close.svg';
 import menuIcon from '../assets/images/icon-menu.svg';
