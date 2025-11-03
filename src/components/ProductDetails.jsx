@@ -40,9 +40,14 @@ const ProductDetails = ({ product, onAddToCart }) => {
         <button
           onClick={handleAddToCart}
           disabled={quantity === 0}
+          aria-label={quantity > 0 ? `Add ${quantity} items to cart` : 'Add to cart'}
           className="flex-1 lg:flex-grow-[2] flex items-center justify-center gap-4 bg-[hsl(26,100%,55%)] text-[hsl(0,0%,0%)] font-bold py-4 rounded-lg hover:opacity-75 transition-opacity shadow-lg shadow-[hsl(26,100%,55%)]/30 disabled:opacity-50 disabled:cursor-not-allowed custom-focus-ring"
         >
-          <img src={cartIcon} alt="Add to cart" />
+          <img 
+            src={cartIcon} 
+            alt="" 
+            aria-hidden="true"
+          />
           <span>Add to cart</span>
         </button>
       </div>
