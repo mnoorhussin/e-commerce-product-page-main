@@ -1,12 +1,12 @@
 // Import product images
-import image1 from '../public/images/image-product-1.jpg';
-import image2 from '../public/images/image-product-2.jpg';
-import image3 from '../public/images/image-product-3.jpg';
-import image4 from '../public/images/image-product-4.jpg';
-import thumb1 from '../public/images/image-product-1-thumbnail.jpg';
-import thumb2 from '../public/images/image-product-2-thumbnail.jpg';
-import thumb3 from '../public/images/image-product-3-thumbnail.jpg';
-import thumb4 from '../public/images/image-product-4-thumbnail.jpg';
+import image1 from '/images/image-product-1.jpg';
+import image2 from '/images/image-product-2.jpg';
+import image3 from '/images/image-product-3.jpg';
+import image4 from '/images/image-product-4.jpg';
+import thumb1 from '/images/image-product-1-thumbnail.jpg';
+import thumb2 from '/images/image-product-2-thumbnail.jpg';
+import thumb3 from '/images/image-product-3-thumbnail.jpg';
+import thumb4 from '/images/image-product-4-thumbnail.jpg';
 
 export const PRODUCT_DATA = {
   id: 1,
